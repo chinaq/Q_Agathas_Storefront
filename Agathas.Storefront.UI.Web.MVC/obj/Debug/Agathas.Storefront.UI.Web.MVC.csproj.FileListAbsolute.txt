@@ -1,0 +1,17 @@
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.UI.Web.MVC.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.UI.Web.MVC.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Controllers.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Infrastructure.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Model.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Repository.NHibernate.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Services.Cache.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Services.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Controllers.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Infrastructure.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Model.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Repository.NHibernate.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Services.Cache.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\Agathas.Storefront.Services.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\obj\Debug\ResolveAssemblyReference.cache
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\obj\Debug\Agathas.Storefront.UI.Web.MVC.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\obj\Debug\Agathas.Storefront.UI.Web.MVC.pdb

@@ -1,0 +1,9 @@
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Repository.NHibernate.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Repository.NHibernate.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Infrastructure.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Model.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Infrastructure.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\bin\Debug\Agathas.Storefront.Model.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\obj\Debug\ResolveAssemblyReference.cache
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Repository.NHibernate\obj\Debug\Agathas.Storefront.Repository.NHibernate.pdb

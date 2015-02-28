@@ -1,0 +1,9 @@
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Services.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Services.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Infrastructure.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Model.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Infrastructure.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\Agathas.Storefront.Model.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\obj\Debug\ResolveAssemblyReference.cache
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.pdb

@@ -1,0 +1,5 @@
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.pdb
