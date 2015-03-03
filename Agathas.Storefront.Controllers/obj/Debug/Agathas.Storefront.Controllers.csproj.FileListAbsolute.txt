@@ -9,3 +9,15 @@ D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agatha
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\obj\Debug\ResolveAssemblyReference.cache
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\obj\Debug\Agathas.Storefront.Controllers.dll
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\obj\Debug\Agathas.Storefront.Controllers.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\AutoMapper.Net4.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\AutoMapper.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\StructureMap.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\StructureMap.Net4.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\AutoMapper.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\AutoMapper.xml
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\AutoMapper.Net4.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\StructureMap.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\StructureMap.xml
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\StructureMap.Net4.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\log4net.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Controllers\bin\Debug\log4net.xml

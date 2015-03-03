@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aee8083a-aa25-4abf-92db-9dbe22f28f0f" name="TerryQ@TERRYQ-A6092DCD 2015-03-03 10:13:20" runUser="TERRYQ-A6092DCD\TerryQ" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="426bbce2-7280-4abe-a034-47ea29b7d730">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="TerryQ_TERRYQ-A6092DCD 2015-03-03 10_13_20">
+      <DeploymentItem filename="D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\packages\structuremap.3.1.4.143\lib\net40\StructureMap.Net4.dll" />
+      <DeploymentItem filename="D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\packages\structuremap.3.1.4.143\lib\net40\StructureMap.dll" />
+      <DeploymentItem filename="D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-03-03T10:13:20.9507500+08:00" queuing="2015-03-03T10:13:21.0913750+08:00" start="2015-03-03T10:13:21.1226250+08:00" finish="2015-03-03T10:13:22.5288750+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateFieldExpressionByInnerClass" storage="d:\documents and settings\terryq\my documents\visual studio 2010\projects\agathas.storefront\agathas.storefront.unittest\bin\debug\agathas.storefront.unittest.dll" id="5e7794b0-93a1-c430-4488-0c0246d1c300">
+      <Execution id="90d69547-2904-4eb0-8775-86cb127c297b" />
+      <TestMethod codeBase="D:/documents and settings/terryq/my documents/visual studio 2010/Projects/Agathas.Storefront/Agathas.Storefront.UnitTest/bin/Debug/Agathas.Storefront.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Agathas.Storefront.UnitTest.Infrastructure.Querying.PropertyNameHelperTest, Agathas.Storefront.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateFieldExpressionByInnerClass" />
+    </UnitTest>
+    <UnitTest name="CreateFieldExpressionByNormalClass" storage="d:\documents and settings\terryq\my documents\visual studio 2010\projects\agathas.storefront\agathas.storefront.unittest\bin\debug\agathas.storefront.unittest.dll" id="09de281a-a8ae-084e-56c3-8a82b6e2beca">
+      <Execution id="62fd8da1-cef8-46fd-bcf8-9a145275c22c" />
+      <TestMethod codeBase="D:/documents and settings/terryq/my documents/visual studio 2010/Projects/Agathas.Storefront/Agathas.Storefront.UnitTest/bin/Debug/Agathas.Storefront.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Agathas.Storefront.UnitTest.Infrastructure.Querying.PropertyNameHelperTest, Agathas.Storefront.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateFieldExpressionByNormalClass" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="09de281a-a8ae-084e-56c3-8a82b6e2beca" executionId="62fd8da1-cef8-46fd-bcf8-9a145275c22c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e7794b0-93a1-c430-4488-0c0246d1c300" executionId="90d69547-2904-4eb0-8775-86cb127c297b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="62fd8da1-cef8-46fd-bcf8-9a145275c22c" testId="09de281a-a8ae-084e-56c3-8a82b6e2beca" testName="CreateFieldExpressionByNormalClass" computerName="TERRYQ-A6092DCD" duration="00:00:00.0659110" startTime="2015-03-03T10:13:21.1226250+08:00" endTime="2015-03-03T10:13:22.4663750+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62fd8da1-cef8-46fd-bcf8-9a145275c22c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;value(Agathas.Storefront.UnitTest.Infrastructure.Querying.AnimalNormalClass).species&gt;，实际为: &lt;&lt;value(Agathas.Storefront.UnitTest.Infrastructure.Querying.AnimalNormalClass).species&gt;&gt;。</Message>
+          <StackTrace>   在 Agathas.Storefront.UnitTest.Infrastructure.Querying.PropertyNameHelperTest.CreateFieldExpressionByNormalClass() 位置 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UnitTest\Infrastructure\Querying\PropertyNameHelperTest.cs:行号 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="90d69547-2904-4eb0-8775-86cb127c297b" testId="5e7794b0-93a1-c430-4488-0c0246d1c300" testName="CreateFieldExpressionByInnerClass" computerName="TERRYQ-A6092DCD" duration="00:00:00.0034368" startTime="2015-03-03T10:13:22.4820000+08:00" endTime="2015-03-03T10:13:22.4976250+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90d69547-2904-4eb0-8775-86cb127c297b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;value(Agathas.Storefront.UnitTest.Infrastructure.Querying.PropertyNameHelperTest+AnimalInnerClass).species&gt;，实际为: &lt;&lt;value(Agathas.Storefront.UnitTest.Infrastructure.Querying.PropertyNameHelperTest+AnimalInnerClass).species&gt;&gt;。</Message>
+          <StackTrace>   在 Agathas.Storefront.UnitTest.Infrastructure.Querying.PropertyNameHelperTest.CreateFieldExpressionByInnerClass() 位置 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UnitTest\Infrastructure\Querying\PropertyNameHelperTest.cs:行号 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

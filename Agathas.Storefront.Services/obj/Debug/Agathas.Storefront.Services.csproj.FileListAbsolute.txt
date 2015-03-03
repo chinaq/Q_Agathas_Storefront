@@ -7,3 +7,10 @@ D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agatha
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\obj\Debug\ResolveAssemblyReference.cache
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.dll
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\obj\Debug\Agathas.Storefront.Services.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\AutoMapper.Net4.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\AutoMapper.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\AutoMapper.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\AutoMapper.xml
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\AutoMapper.Net4.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\log4net.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services\bin\Debug\log4net.xml

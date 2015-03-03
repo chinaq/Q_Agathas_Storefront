@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="454992b8-2ad3-4a5c-a2f5-759f9ec7f2a5" name="TerryQ@TERRYQ-A6092DCD 2015-03-03 10:48:01" runUser="TERRYQ-A6092DCD\TerryQ" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="426bbce2-7280-4abe-a034-47ea29b7d730">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="TerryQ_TERRYQ-A6092DCD 2015-03-03 10_48_01">
+      <DeploymentItem filename="D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\packages\structuremap.3.1.4.143\lib\net40\StructureMap.Net4.dll" />
+      <DeploymentItem filename="D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\packages\structuremap.3.1.4.143\lib\net40\StructureMap.dll" />
+      <DeploymentItem filename="D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-03-03T10:48:01.8257500+08:00" queuing="2015-03-03T10:48:01.9663750+08:00" start="2015-03-03T10:48:01.9976250+08:00" finish="2015-03-03T10:48:03.3570000+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateFieldExpression_ByConstant_NormalClass" storage="d:\documents and settings\terryq\my documents\visual studio 2010\projects\agathas.storefront\agathas.storefront.unittest\bin\debug\agathas.storefront.unittest.dll" id="868b5842-227f-e96d-34b1-44116c329885">
+      <TestCategory>
+        <TestCategoryItem TestCategory="非工程内容" />
+      </TestCategory>
+      <Execution id="68701f9c-f772-41fa-b3d2-30abc90be25d" />
+      <TestMethod codeBase="D:/documents and settings/terryq/my documents/visual studio 2010/Projects/Agathas.Storefront/Agathas.Storefront.UnitTest/bin/Debug/Agathas.Storefront.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Agathas.Storefront.UnitTest.Infrastructure.Querying.PropertyNameHelperTest, Agathas.Storefront.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateFieldExpression_ByConstant_NormalClass" />
+    </UnitTest>
+    <UnitTest name="CreateFieldExpression_ByConstant_InnerClass" storage="d:\documents and settings\terryq\my documents\visual studio 2010\projects\agathas.storefront\agathas.storefront.unittest\bin\debug\agathas.storefront.unittest.dll" id="a92c353c-3e45-eb59-487a-c85c01e4c592">
+      <TestCategory>
+        <TestCategoryItem TestCategory="非工程内容" />
+      </TestCategory>
+      <Execution id="75c6f732-55fa-414b-bab3-de439e86ac81" />
+      <TestMethod codeBase="D:/documents and settings/terryq/my documents/visual studio 2010/Projects/Agathas.Storefront/Agathas.Storefront.UnitTest/bin/Debug/Agathas.Storefront.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Agathas.Storefront.UnitTest.Infrastructure.Querying.PropertyNameHelperTest, Agathas.Storefront.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateFieldExpression_ByConstant_InnerClass" />
+    </UnitTest>
+    <UnitTest name="ResolvePropertyNameTest" storage="d:\documents and settings\terryq\my documents\visual studio 2010\projects\agathas.storefront\agathas.storefront.unittest\bin\debug\agathas.storefront.unittest.dll" id="a7c54eb3-e157-5720-2da4-b86d6945206e">
+      <Execution id="195dfb46-447e-4f06-a952-cdd69a119451" />
+      <TestMethod codeBase="D:/documents and settings/terryq/my documents/visual studio 2010/Projects/Agathas.Storefront/Agathas.Storefront.UnitTest/bin/Debug/Agathas.Storefront.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Agathas.Storefront.UnitTest.Infrastructure.Querying.PropertyNameHelperTest, Agathas.Storefront.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResolvePropertyNameTest" />
+    </UnitTest>
+    <UnitTest name="CreatFieldExpresssion_NotByConstant" storage="d:\documents and settings\terryq\my documents\visual studio 2010\projects\agathas.storefront\agathas.storefront.unittest\bin\debug\agathas.storefront.unittest.dll" id="dac6a726-7b6f-0584-7050-9084d7246043">
+      <TestCategory>
+        <TestCategoryItem TestCategory="非工程内容" />
+      </TestCategory>
+      <Execution id="67a62579-b9b4-45e6-857c-ea9af4cef8e1" />
+      <TestMethod codeBase="D:/documents and settings/terryq/my documents/visual studio 2010/Projects/Agathas.Storefront/Agathas.Storefront.UnitTest/bin/Debug/Agathas.Storefront.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Agathas.Storefront.UnitTest.Infrastructure.Querying.PropertyNameHelperTest, Agathas.Storefront.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreatFieldExpresssion_NotByConstant" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="868b5842-227f-e96d-34b1-44116c329885" executionId="68701f9c-f772-41fa-b3d2-30abc90be25d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7c54eb3-e157-5720-2da4-b86d6945206e" executionId="195dfb46-447e-4f06-a952-cdd69a119451" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a92c353c-3e45-eb59-487a-c85c01e4c592" executionId="75c6f732-55fa-414b-bab3-de439e86ac81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dac6a726-7b6f-0584-7050-9084d7246043" executionId="67a62579-b9b4-45e6-857c-ea9af4cef8e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="68701f9c-f772-41fa-b3d2-30abc90be25d" testId="868b5842-227f-e96d-34b1-44116c329885" testName="CreateFieldExpression_ByConstant_NormalClass" computerName="TERRYQ-A6092DCD" duration="00:00:00.0171554" startTime="2015-03-03T10:48:02.0132500+08:00" endTime="2015-03-03T10:48:03.2632500+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68701f9c-f772-41fa-b3d2-30abc90be25d">
+    </UnitTestResult>
+    <UnitTestResult executionId="195dfb46-447e-4f06-a952-cdd69a119451" testId="a7c54eb3-e157-5720-2da4-b86d6945206e" testName="ResolvePropertyNameTest" computerName="TERRYQ-A6092DCD" duration="00:00:00.0108259" startTime="2015-03-03T10:48:03.2632500+08:00" endTime="2015-03-03T10:48:03.2788750+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="195dfb46-447e-4f06-a952-cdd69a119451">
+    </UnitTestResult>
+    <UnitTestResult executionId="75c6f732-55fa-414b-bab3-de439e86ac81" testId="a92c353c-3e45-eb59-487a-c85c01e4c592" testName="CreateFieldExpression_ByConstant_InnerClass" computerName="TERRYQ-A6092DCD" duration="00:00:00.0004082" startTime="2015-03-03T10:48:03.2945000+08:00" endTime="2015-03-03T10:48:03.2945000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75c6f732-55fa-414b-bab3-de439e86ac81">
+    </UnitTestResult>
+    <UnitTestResult executionId="67a62579-b9b4-45e6-857c-ea9af4cef8e1" testId="dac6a726-7b6f-0584-7050-9084d7246043" testName="CreatFieldExpresssion_NotByConstant" computerName="TERRYQ-A6092DCD" duration="00:00:00.0001289" startTime="2015-03-03T10:48:03.3101250+08:00" endTime="2015-03-03T10:48:03.3101250+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67a62579-b9b4-45e6-857c-ea9af4cef8e1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

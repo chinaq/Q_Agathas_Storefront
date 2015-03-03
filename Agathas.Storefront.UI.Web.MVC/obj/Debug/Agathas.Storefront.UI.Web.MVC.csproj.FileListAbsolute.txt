@@ -15,3 +15,10 @@ D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agatha
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\obj\Debug\ResolveAssemblyReference.cache
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\obj\Debug\Agathas.Storefront.UI.Web.MVC.dll
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\obj\Debug\Agathas.Storefront.UI.Web.MVC.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\StructureMap.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\StructureMap.Net4.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\StructureMap.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\StructureMap.xml
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\StructureMap.Net4.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\log4net.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UI.Web.MVC\bin\log4net.xml

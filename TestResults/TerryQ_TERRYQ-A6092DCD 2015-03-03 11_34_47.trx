@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c6b14606-0875-479c-b90f-f06d28f9d063" name="TerryQ@TERRYQ-A6092DCD 2015-03-03 11:34:47" runUser="TERRYQ-A6092DCD\TerryQ" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="426bbce2-7280-4abe-a034-47ea29b7d730">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="TerryQ_TERRYQ-A6092DCD 2015-03-03 11_34_47">
+      <DeploymentItem filename="D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\packages\structuremap.3.1.4.143\lib\net40\StructureMap.Net4.dll" />
+      <DeploymentItem filename="D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\packages\structuremap.3.1.4.143\lib\net40\StructureMap.dll" />
+      <DeploymentItem filename="D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-03-03T11:34:47.7632500+08:00" queuing="2015-03-03T11:34:48.0601250+08:00" start="2015-03-03T11:34:48.0757500+08:00" finish="2015-03-03T11:34:49.5288750+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ResolvePropertyNameTest" storage="d:\documents and settings\terryq\my documents\visual studio 2010\projects\agathas.storefront\agathas.storefront.unittest\bin\debug\agathas.storefront.unittest.dll" id="a7c54eb3-e157-5720-2da4-b86d6945206e">
+      <Execution id="cb6c8f73-0c57-4ed0-a63f-45e6e4e1b6cf" />
+      <TestMethod codeBase="D:/documents and settings/terryq/my documents/visual studio 2010/Projects/Agathas.Storefront/Agathas.Storefront.UnitTest/bin/Debug/Agathas.Storefront.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Agathas.Storefront.UnitTest.Infrastructure.Querying.PropertyNameHelperTest, Agathas.Storefront.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResolvePropertyNameTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a7c54eb3-e157-5720-2da4-b86d6945206e" executionId="cb6c8f73-0c57-4ed0-a63f-45e6e4e1b6cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cb6c8f73-0c57-4ed0-a63f-45e6e4e1b6cf" testId="a7c54eb3-e157-5720-2da4-b86d6945206e" testName="ResolvePropertyNameTest" computerName="TERRYQ-A6092DCD" duration="00:00:00.0428221" startTime="2015-03-03T11:34:48.0913750+08:00" endTime="2015-03-03T11:34:49.4663750+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb6c8f73-0c57-4ed0-a63f-45e6e4e1b6cf">
+    </UnitTestResult>
+  </Results>
+</TestRun>

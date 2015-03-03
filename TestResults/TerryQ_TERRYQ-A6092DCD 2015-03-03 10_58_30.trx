@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0d3d192d-12fe-4f17-937b-d62834d60e76" name="TerryQ@TERRYQ-A6092DCD 2015-03-03 10:58:30" runUser="TERRYQ-A6092DCD\TerryQ" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="426bbce2-7280-4abe-a034-47ea29b7d730">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="TerryQ_TERRYQ-A6092DCD 2015-03-03 10_58_30">
+      <DeploymentItem filename="D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\packages\structuremap.3.1.4.143\lib\net40\StructureMap.Net4.dll" />
+      <DeploymentItem filename="D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\packages\structuremap.3.1.4.143\lib\net40\StructureMap.dll" />
+      <DeploymentItem filename="D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\Agathas.Storefront.Infrastructure.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-03-03T10:58:30.8101250+08:00" queuing="2015-03-03T10:58:31.1070000+08:00" start="2015-03-03T10:58:31.1226250+08:00" finish="2015-03-03T10:58:32.6070000+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreatFieldExpresssion_NotByConstant" storage="d:\documents and settings\terryq\my documents\visual studio 2010\projects\agathas.storefront\agathas.storefront.unittest\bin\debug\agathas.storefront.unittest.dll" id="dac6a726-7b6f-0584-7050-9084d7246043">
+      <TestCategory>
+        <TestCategoryItem TestCategory="非工程内容" />
+      </TestCategory>
+      <Execution id="85366d8b-2a56-4a82-b620-4cae868b311e" />
+      <TestMethod codeBase="D:/documents and settings/terryq/my documents/visual studio 2010/Projects/Agathas.Storefront/Agathas.Storefront.UnitTest/bin/Debug/Agathas.Storefront.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Agathas.Storefront.UnitTest.Infrastructure.Querying.PropertyNameHelperTest, Agathas.Storefront.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreatFieldExpresssion_NotByConstant" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dac6a726-7b6f-0584-7050-9084d7246043" executionId="85366d8b-2a56-4a82-b620-4cae868b311e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="85366d8b-2a56-4a82-b620-4cae868b311e" testId="dac6a726-7b6f-0584-7050-9084d7246043" testName="CreatFieldExpresssion_NotByConstant" computerName="TERRYQ-A6092DCD" duration="00:00:00.0812041" startTime="2015-03-03T10:58:31.1382500+08:00" endTime="2015-03-03T10:58:32.5601250+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85366d8b-2a56-4a82-b620-4cae868b311e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;System.Linq.Expressions.Expression`1[System.Func`2[Agathas.Storefront.UnitTest.Infrastructure.Querying.AnimalNormalClass,System.Object]]&gt;，实际为: &lt;(null)&gt;。</Message>
+          <StackTrace>   在 Agathas.Storefront.UnitTest.Infrastructure.Querying.PropertyNameHelperTest.CreatFieldExpresssion_NotByConstant() 位置 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.UnitTest\Infrastructure\Querying\PropertyNameHelperTest.cs:行号 32
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
