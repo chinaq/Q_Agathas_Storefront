@@ -15,7 +15,7 @@ namespace Agathas.Storefront.UnitTest
         public UnitTest1()
         {
             //
-            //TODO: 在此处添加构造函数逻辑
+            //在此处添加构造函数逻辑
             //
         }
 
@@ -63,7 +63,7 @@ namespace Agathas.Storefront.UnitTest
         public void TestMethod1()
         {
             //
-            // TODO: 在此处添加测试逻辑
+            // 在此处添加测试逻辑
             //
         }
     }

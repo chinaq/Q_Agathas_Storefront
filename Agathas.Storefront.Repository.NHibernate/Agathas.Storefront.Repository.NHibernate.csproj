@@ -71,7 +71,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NHUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\CategoryRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
+    <Compile Include="Repositories\ProductTitleRepository.cs" />
+    <Compile Include="Repositories\QueryTranslator.cs" />
+    <Compile Include="Repositories\Repository.cs" />
+    <Compile Include="SessionStorage\SessionFactory.cs" />
+    <Compile Include="SessionStorage\HttpSessionContainer.cs" />
+    <Compile Include="SessionStorage\ISessionStorageContainer.cs" />
+    <Compile Include="SessionStorage\SessionStorageFacotry.cs" />
+    <Compile Include="SessionStorage\ThreadSessionStorageContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Agathas.Storefront.Infrastructure\Agathas.Storefront.Infrastructure.csproj">
@@ -85,6 +96,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Brand.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Category.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Product.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\ProductColor.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\ProductSize.hbm.xml" />
+    <EmbeddedResource Include="Mapping\ProductTitle.hbm.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

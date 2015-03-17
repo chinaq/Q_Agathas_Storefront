@@ -8,5 +8,6 @@ namespace Agathas.Storefront.Infrastructure.Configuration
     public interface IApplicationSettings
     {
         string LoggerName { get; }
+        string NumberOfResultsPerpage { get; }
     }
 }

@@ -12,5 +12,10 @@ namespace Agathas.Storefront.Infrastructure.Configuration
         {
             get { return ConfigurationManager.AppSettings["LoggerName"]; }
         }
+
+        public string NumberOfResultsPerpage
+        {
+            get { return ConfigurationManager.AppSettings["NumberOfResultsPerpage"]; }
+        }
     }
 }

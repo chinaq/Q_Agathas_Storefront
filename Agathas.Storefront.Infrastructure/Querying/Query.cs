@@ -10,7 +10,7 @@ namespace Agathas.Storefront.Infrastructure.Querying
     /// </summary>
     public class Query
     {
-        private IList<Query> _subQueries = new List<Query>();
+        private IList<Query> _subQueries = new List<Query>();   //子查询集合，目前不知干吗用
         private IList<Criterion> _criteria = new List<Criterion>();
 
         public IEnumerable<Criterion> Criteria
@@ -21,6 +21,11 @@ namespace Agathas.Storefront.Infrastructure.Querying
         public IEnumerable<Query> SubQueries
         {
             get { return _subQueries; }
+        }
+
+        public void AddSubQuery(Query subQuery)
+        {
+            _subQueries.Add(subQuery);
         }
 
         public void Add(Criterion criterion)

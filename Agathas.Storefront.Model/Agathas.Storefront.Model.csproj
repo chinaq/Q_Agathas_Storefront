@@ -40,6 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Categories\Category.cs" />
+    <Compile Include="Categories\ICategoryRepository.cs" />
+    <Compile Include="Products\Brand.cs" />
+    <Compile Include="Products\IProductAttribute.cs" />
+    <Compile Include="Products\IProductRepository.cs" />
+    <Compile Include="Products\IProductTitleRepository.cs" />
+    <Compile Include="Products\Product.cs" />
+    <Compile Include="Products\ProductColor.cs" />
+    <Compile Include="Products\ProductSize.cs" />
+    <Compile Include="Products\ProductTitle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +58,7 @@
       <Name>Agathas.Storefront.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

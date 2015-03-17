@@ -47,6 +47,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
@@ -56,7 +57,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="JsonDTOs\JsonProductSearchRequest.cs" />
+    <Compile Include="Controllers\ProductCatalogBaseController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="IoCControllerFactory.cs" />
+    <Compile Include="JsonDTOs\JsonModelBinder.cs" />
+    <Compile Include="JsonDTOs\JsonRefinementGroup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\ProductCatalog\BaseProductCatalogPageView.cs" />
+    <Compile Include="ViewModels\ProductCatalog\HomePageView.cs" />
+    <Compile Include="ViewModels\ProductCatalog\ProductDetailView.cs" />
+    <Compile Include="ViewModels\ProductCatalog\ProductSearchResultView.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Agathas.Storefront.Infrastructure\Agathas.Storefront.Infrastructure.csproj">

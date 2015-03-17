@@ -11,3 +11,6 @@ D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agatha
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services.Cache\obj\Debug\Agathas.Storefront.Services.Cache.pdb
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services.Cache\bin\Debug\log4net.dll
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services.Cache\bin\Debug\log4net.xml
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services.Cache\bin\Debug\AutoMapper.dll
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services.Cache\bin\Debug\AutoMapper.pdb
+D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Services.Cache\bin\Debug\AutoMapper.xml
