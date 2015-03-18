@@ -20,6 +20,7 @@ namespace Agathas.Storefront.Controllers.JsonDTOs
                 throw new ArgumentNullException("bindingContext");
 
             var serializer = new DataContractJsonSerializer(bindingContext.ModelType);
+            controllerContext.HttpContext.Request.InputStream.Position = 0;     //按网上指导加的，不加的话反序列化json出错
             return serializer.ReadObject(controllerContext.HttpContext.Request.InputStream);
         }
     }

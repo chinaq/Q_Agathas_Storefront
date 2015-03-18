@@ -27,21 +27,21 @@ namespace Agathas.Storefront.Repository.NHibernate.Repositories
 
         private static void BuildQueryFrom(Query query, ICriteria criteria)
         {
-            IList<ICriteria> criterions = new List<ICriteria>();
+            IList<ICriterion> criterions = new List<ICriterion>();
 
             //如果该查询中的属性要求不为空，则处理查询中的每个属性要求
             if (query.Criteria != null)
             {
                 foreach (Criterion c in query.Criteria)
                 {
-                    ICriteria criterion;
+                    ICriterion criterion;
                     switch (c.CriteriaOperator)
                     {
                         case CriteriaOperator.Equal:
-                            criterion = (ICriteria)Expression.Eq(c.PropertyName, c.Value);
+                            criterion = Expression.Eq(c.PropertyName, c.Value);
                             break;
                         case CriteriaOperator.LesserThanOrEqual:
-                            criterion = (ICriteria)Expression.Le(c.PropertyName, c.Value);
+                            criterion = Expression.Le(c.PropertyName, c.Value);
                             break;
                         default:
                             throw new ApplicationException("No operator defined");

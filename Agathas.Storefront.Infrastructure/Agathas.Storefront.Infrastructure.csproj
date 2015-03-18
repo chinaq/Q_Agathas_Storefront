@@ -34,11 +34,9 @@
     <Reference Include="log4net">
       <HintPath>..\packages\log4net.1.2.10\lib\2.0\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="StructureMap">
-      <HintPath>..\packages\structuremap.3.1.4.143\lib\net40\StructureMap.dll</HintPath>
-    </Reference>
-    <Reference Include="StructureMap.Net4">
-      <HintPath>..\packages\structuremap.3.1.4.143\lib\net40\StructureMap.Net4.dll</HintPath>
+    <Reference Include="StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\structuremap.2.6.1.0\lib\StructureMap.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -54,7 +52,7 @@
   <ItemGroup>
     <Compile Include="Configuration\ApplicationSettingsFactory.cs" />
     <Compile Include="Configuration\IApplicationSettings.cs" />
-    <Compile Include="Configuration\WebConfigAppplicationSettings.cs" />
+    <Compile Include="Configuration\WebConfigApplicationSettings.cs" />
     <Compile Include="Domain\BusinessRule.cs" />
     <Compile Include="Domain\EntityBase.cs" />
     <Compile Include="Domain\IAggregateRoot.cs" />

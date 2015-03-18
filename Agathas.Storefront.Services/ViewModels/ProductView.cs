@@ -11,6 +11,6 @@ namespace Agathas.Storefront.Services.ViewModels
         public string BrandName { get; set; }
         public string Name { get; set; }
         public string Price { get; set; }
-        public IEnumerable<ProductSizeOption> Produts { get; set; }
+        public IEnumerable<ProductSizeOption> Products { get; set; }
     }
 }

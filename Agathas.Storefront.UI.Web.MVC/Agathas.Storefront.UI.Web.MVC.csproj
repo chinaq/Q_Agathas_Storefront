@@ -35,11 +35,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="StructureMap">
-      <HintPath>..\packages\structuremap.3.1.4.143\lib\net40\StructureMap.dll</HintPath>
-    </Reference>
-    <Reference Include="StructureMap.Net4">
-      <HintPath>..\packages\structuremap.3.1.4.143\lib\net40\StructureMap.Net4.dll</HintPath>
+    <Reference Include="StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\structuremap.2.6.1.0\lib\StructureMap.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -56,7 +54,8 @@
     <Reference Include="System.Data.DataSetExtensions">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -72,16 +71,41 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="BootStrapper.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Helpers\AgathaHtmlHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\Products\1.jpg" />
+    <Content Include="Content\Images\Products\2.jpg" />
+    <Content Include="Content\Images\Products\3.jpg" />
+    <Content Include="Content\Images\Products\4.jpg" />
+    <Content Include="Content\Images\Products\5.jpg" />
+    <Content Include="Content\Images\Products\6.jpg" />
+    <Content Include="Content\Images\Products\product-lifestyle.jpg" />
+    <Content Include="Content\Images\Structure\background.gif" />
+    <Content Include="Content\Images\Structure\lg_logo.png" />
+    <Content Include="Content\Images\Structure\modal-background.png" />
+    <Content Include="Content\Images\Structure\refinement-available.gif" />
+    <Content Include="Content\Images\Structure\refinement-disabled.gif" />
+    <Content Include="Content\Images\Structure\refinement-selected.gif" />
+    <Content Include="Content\Images\Structure\refinement-selecteddisabled.gif" />
+    <Content Include="Content\Images\Structure\retro_background.gif" />
+    <Content Include="Content\Images\Structure\sm_logo.png" />
+    <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\agatha-common-scripts.js" />
+    <Content Include="Scripts\jquery-1.4.2.min.js" />
+    <Content Include="Scripts\jquery-jtemplates.js" />
+    <Content Include="Scripts\jquery-ui-1.8.1.custom.min.js" />
+    <Content Include="Scripts\json2.js" />
+    <Content Include="Views\Product\Detail.aspx" />
+    <Content Include="Views\Product\ProductSearchResults.aspx" />
+    <Content Include="Views\Shared\Categories.ascx" />
+    <Content Include="Views\Shared\SiteFooter.ascx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -91,7 +115,6 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Content\Site.css" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
@@ -104,14 +127,10 @@
     <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
     <Content Include="Scripts\MicrosoftMvcValidation.js" />
     <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
-    <Content Include="Views\Account\ChangePassword.aspx" />
-    <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
     <Content Include="Views\Account\LogOn.aspx" />
     <Content Include="Views\Account\Register.aspx" />
-    <Content Include="Views\Home\About.aspx" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
-    <Content Include="Views\Shared\LogOnUserControl.ascx" />
     <Content Include="Views\Shared\Site.Master" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
@@ -146,6 +165,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\ProductCatalog.Master" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

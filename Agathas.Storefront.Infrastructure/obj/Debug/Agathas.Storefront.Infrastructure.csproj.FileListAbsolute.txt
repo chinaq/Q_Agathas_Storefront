@@ -4,9 +4,6 @@ D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agatha
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.dll
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\obj\Debug\Agathas.Storefront.Infrastructure.pdb
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\StructureMap.dll
-D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\StructureMap.Net4.dll
-D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\StructureMap.pdb
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\StructureMap.xml
-D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\StructureMap.Net4.pdb
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\log4net.dll
 D:\documents and settings\terryq\my documents\visual studio 2010\Projects\Agathas.Storefront\Agathas.Storefront.Infrastructure\bin\Debug\log4net.xml

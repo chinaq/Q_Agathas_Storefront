@@ -48,9 +48,9 @@ namespace Agathas.Storefront.Controllers.Controllers
             productSearchResultView.Products = response.Products;
 
             productSearchResultView.RefinementGroups = response.RefinementGroups;
-            productSearchResultView.SelectCategory = response.SelectedCategory;
-            productSearchResultView.SelectCategoryName = response.SelectedCategoryName;
-            productSearchResultView.TotalNumberPages = response.TotalNumberOfPages;
+            productSearchResultView.SelectedCategory = response.SelectedCategory;
+            productSearchResultView.SelectedCategoryName = response.SelectedCategoryName;
+            productSearchResultView.TotalNumberOfPages = response.TotalNumberOfPages;
             return productSearchResultView;
         }
 

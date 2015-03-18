@@ -4,6 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Agathas.Storefront.Infrastructure.Configuration;
+using StructureMap;
+using Agathas.Storefront.Infrastructure.Email;
+using Agathas.Storefront.Controllers;
+using Agathas.Storefront.Infrastructure.Logging;
 
 namespace Agathas.Storefront.UI.Web.MVC
 {
@@ -15,6 +20,7 @@ namespace Agathas.Storefront.UI.Web.MVC
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.IgnoreRoute("{*favicon}", new { favicon = @"(.*/)?favicon.ico(/.*)?" });
 
             routes.MapRoute(
                 "Default", // 路由名称
@@ -29,6 +35,25 @@ namespace Agathas.Storefront.UI.Web.MVC
             AreaRegistration.RegisterAllAreas();
 
             RegisterRoutes(RouteTable.Routes);
+
+
+
+            BootStrapper.ConfigureDependencies();
+
+            Services.AutoMapperBootStrapper.ConfigureAutoMapper();
+
+            ApplicationSettingsFactory.InitializeApplicationSettingsFactory
+                                  (ObjectFactory.GetInstance<IApplicationSettings>());
+
+            LoggingFactory.InitializeLogFactory(ObjectFactory.GetInstance<ILogger>());
+
+            EmailServiceFactory.InitializeEmailServiceFactory
+                                  (ObjectFactory.GetInstance<IEmailService>());
+
+            ControllerBuilder.Current.SetControllerFactory(new IoCControllerFactory());
+
+            LoggingFactory.GetLogger().Log("Application Started");            
+
         }
     }
 }
